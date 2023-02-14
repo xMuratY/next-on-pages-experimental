@@ -1,7 +1,9 @@
 {
-  "name": "@cloudflare/next-on-pages",
+  "name": "@cloudflare/next-on-pages-experimental",
   "version": "0.3.0",
-  "bin": "./bin/index.js",
+  "bin": {
+    "next-on-pages-experimental": "bin/index.js"
+  },
   "scripts": {
     "build": "npx esbuild --bundle --platform=node ./src/index.ts --external:esbuild --external:chokidar --outfile=./dist/index.js",
     "publish": "npm run build && npx changeset publish"
@@ -29,5 +31,20 @@
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
     "vitest": "^0.24.3"
-  }
+  },
+  "description": "Reference:",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xMuratY/next-on-pages-experimental.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xMuratY/next-on-pages-experimental/issues"
+  },
+  "homepage": "https://github.com/xMuratY/next-on-pages-experimental#readme"
 }
