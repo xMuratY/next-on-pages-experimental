@@ -1,5 +1,5 @@
 {
-  "name": "@cloudflare/next-on-pages-experimental",
+  "name": "@mzjs/next-on-pages-experimental",
   "version": "0.3.0",
   "bin": {
     "next-on-pages-experimental": "bin/index.js"
