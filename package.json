@@ -1,6 +1,6 @@
 {
   "name": "@mzjs/next-on-pages-experimental",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "bin": {
     "next-on-pages-experimental": "bin/index.js"
   },
